@@ -1,0 +1,17 @@
+# Local config with real DB credentials (use db_connect.sample.php as template)
+db_connect.php
+
+# Logs
+logs/
+*.log
+
+# One-time setup scripts containing credentials
+fix_accoount.php
+install_enhancements.php
+
+# Tool / editor / OS files
+.continue/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
